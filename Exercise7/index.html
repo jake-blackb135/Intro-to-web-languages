@@ -1,13 +1,19 @@
 <html>
     <head>
+        <!--This creates an input box to take input that prompts the user to enter their name-->
         <input id="name-input" type="text" placeholder="Enter your name" />
-<button id="my-button">Click Me</button>
+        <!--creates a button to display a greeting to the user-->
+        <button id="my-button">Click Me</button>
 
 <script>
+//creates a new button object
   var myButton = document.querySelector('#my-button');
+  //creates a new input object
   var nameInput = document.querySelector('#name-input');
 
+  //adds a new action listener that runs when the user clicks the button
   myButton.addEventListener('click', function () {
+      //diplays a greeting to the user with the name they entered as long as they entered text
     if (nameInput.value !== '') {
       alert('Hello ' + nameInput.value);
     }
