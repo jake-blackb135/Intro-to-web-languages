@@ -1,0 +1,15 @@
+body{
+    background-color: cyan;
+    
+}
+#main-title{
+    color:blueviolet;
+    font:100 30px/15px serif;
+    text-align: center;
+}
+
+.content{
+    font: oblique small-caps bolder 30px/15px cursive;  
+    margin-bottom: 12px;
+    
+}
